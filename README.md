@@ -4,13 +4,21 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1) FlutterFire CLI BEGINS HERE
+install node.js throught nvm => check if it is installed 1.npm -v(npm --version) or 2.node -v (node --version) or nvm ls
 
-A few resources to get you started if this is your first Flutter project:
+2) ~ % sudo npm install -g firebase-tools
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3) ~ % dart pub global activate flutterfire_cli
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+IN APPLICATION
+4) your project % flutterfire configure
+    1) reenter to your project, if appear ~zsh command not found
+    2) choose your project
+    3) choose platforms(android, ios)
+    4) choose "YES"
+    5) android/app/build.gradle ---defaultConfig{
+                                            multiDexEnabled true
+                                         } 
+    6) [check GoogleService-Info in](ios/Runner/GoogleService-Info.plist)
+    7) [check google-services in](android/app/google-services.json)
