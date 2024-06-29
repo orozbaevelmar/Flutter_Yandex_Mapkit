@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+## FlutterFire CLI
 
 1) FlutterFire CLI BEGINS HERE
 install node.js throught nvm => check if it is installed 1.npm -v(npm --version) or 2.node -v (node --version) or nvm ls
@@ -22,3 +22,8 @@ IN APPLICATION
                                          } 
     6) [check GoogleService-Info in](ios/Runner/GoogleService-Info.plist)
     7) [check google-services in](android/app/google-services.json)
+
+
+## Flutter DotEnv
+-- Add .env file to .gitignore to protect 
+-It actually store sensitive information like API keys, database URLs, and other configuration settings without hardcoding them in your Flutter code. Moreover, it protects your keys, URLs and sensitive keys or IDs from exposure as we always tend to use BitBucket, GitHub, GitLab, etc. for version control.
